@@ -38,6 +38,7 @@ else:
 
   except URLError as e:
     streamlit.error()
+    
 # Stop while we troubleshoot
 streamlit.stop()
 
